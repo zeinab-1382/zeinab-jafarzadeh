@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"لباس زنانه نگین",
+        "price":"500000تومان",
+        "image":"photoes/woman-clothes.jpg"
+    },
+    {
+        "id":2,
+        "name":"لباس مردانه حمید",
+        "price":"400000تومان",
+        "image":"photoes/man-clothes.jpg"
+    },
+    {
+        "id":3,
+        "name":"لباس زنانه پارمیس",
+        "price":"700000تومان",
+        "image":"photoes/woman-clothes.jpg"
+    },
+    {
+       "id":4,
+        "name":"لباس مردانه رستم",
+        "price":"800000تومان",
+        "image":"photoes/man-clothes.jpg"
+    }
+]

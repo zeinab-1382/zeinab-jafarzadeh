@@ -1,0 +1,289 @@
+@font-face {
+    font-family: "vazir";
+    src: url(./fonts/Vazirmatn-Medium.woff2) format("woff2");
+}
+body{
+    font-family: "vazir";
+    margin: 0;
+    font-size: 100%;
+    background-color: #f7f7f7;
+}
+.container{
+    position: fixed;
+    /* width: 100%;
+    height: 100%; */
+}
+
+/* screen max-width until 2560px*/
+@media (max-width:2560px) {
+    .container{
+        position: fixed;
+    }
+    .form{
+        text-align: right;
+        width: 30%;
+        height:50%;
+        padding: 20px;
+        margin: auto;
+        margin-top: 80px;
+        background-color:   #f2ebed;
+        color:  #df5381;
+        font-weight: 70;
+        border-radius:5px;
+    }
+    .register-text{
+        text-align: center;
+        color: #d00146;
+        font-weight: 150;
+        font-size:large;
+        margin-bottom: 3px;
+    }
+    .text-making-userAccount{
+        text-align: center;
+        color: #a1969a;
+        font-size: smaller;
+        margin-bottom: 35px;
+    }
+ 
+    .label{
+        color: #a1969a;
+        font-size: small;
+        /* margin-bottom: 10px; */
+    }
+    .input{
+        width: 100%;
+        border-radius:5px;
+        margin-top:6px;
+        margin-bottom: 6px;
+
+    }
+    .button_register{
+        width: 100%;
+        background-color: #df5381 ;
+        color: #f7f7f7 ;
+        border-radius:5px;
+        margin: 10px 0;
+    }
+    .button_register:hover{
+        background-color:#d00146 ;
+        cursor: pointer;
+    }
+    .text{
+        font-size: smaller;
+        margin: 10px 0;
+        margin-top: 40px;
+        text-align: center;
+        color: #a1969a ;
+
+    }
+    .login{
+        font-size: small;
+        color: #df5381;
+    }
+    .login:hover{
+        color: #d00146;
+        cursor: pointer;
+    }
+}
+
+/* screen max-width until 1024px*/
+@media (max-width:1024px) {
+    .form{
+        text-align: right;
+        width: 60%;
+        height:55%;
+        padding: 20px;
+        margin: auto;
+        margin-top: 120px;
+        background-color:   #f2ebed;
+        color:  #df5381;
+        font-weight: 70;
+        border-radius:5px;
+    }
+    .register-text{
+        text-align: center;
+        color: #d00146;
+        font-weight: 150;
+        font-size:large;
+        margin-bottom: 3px;
+    }
+    .text-making-userAccount{
+        text-align: center;
+        color: #a1969a;
+        font-size: smaller;
+        margin-bottom: 35px;
+    }
+ 
+    .label{
+        color: #a1969a;
+        font-size: small;
+        /* margin-bottom: 10px; */
+    }
+    .input{
+        width: 100%;
+        border-radius:5px;
+        margin-top:6px;
+        margin-bottom: 6px;
+
+    }
+    .button_register{
+        width: 100%;
+        background-color: #df5381 ;
+        color: #f7f7f7 ;
+        border-radius:5px;
+        margin: 10px 0;
+    }
+    .button_register:hover{
+        background-color:#d00146 ;
+        cursor: pointer;
+    }
+    .text{
+        font-size: smaller;
+        margin: 10px 0;
+        text-align: center;
+        color: #a1969a ;
+
+    }
+    .login{
+        font-size: small;
+        color: #df5381;
+    }
+    .login:hover{
+        color: #d00146;
+        cursor: pointer;
+    }
+}
+
+/* screen max-width until 768px*/
+@media (max-width:768px) {
+    .form{
+        text-align: right;
+        width: 80%;
+        height:55%;
+        padding: 20px;
+        margin: auto;
+        margin-top:120px;
+        background-color:   #f2ebed;
+        color:  #df5381;
+        font-weight: 70;
+        border-radius:5px;
+    }
+    .register-text{
+        text-align: center;
+        color: #d00146;
+        font-weight: 150;
+        font-size:large;
+        margin-bottom: 3px;
+    }
+    .text-making-userAccount{
+        text-align: center;
+        color: #a1969a;
+        font-size: smaller;
+        margin-bottom: 25px;
+    }
+    .label{
+        color: #a1969a;
+        font-size: small;
+        /* margin-bottom: 10px; */
+    }
+    .input{
+        width: 100%;
+        border-radius:5px;
+        margin-top:6px;
+        margin-bottom: 6px;
+
+    }
+    .button_register{
+        width: 100%;
+        background-color: #df5381 ;
+        color: #f7f7f7 ;
+        border-radius:5px;
+        margin: 10px 0;
+    }
+    .button_register:hover{
+        background-color:#d00146 ;
+        cursor: pointer;
+    }
+    .text{
+        font-size: smaller;
+        margin: 10px 0;
+        text-align: center;
+        color: #a1969a ;
+
+    }
+    .login{
+        font-size: small;
+        color: #df5381;
+    }
+    .login:hover{
+        color: #d00146;
+        cursor: pointer;
+    }
+}
+
+/* screen max-width until 425px*/
+@media (max-width:425px) {
+    .form{
+        text-align: right;
+        width: 80%;
+        height:55%;
+        padding: 20px;
+        margin: auto;
+        margin-top:120px;
+        background-color:   #f2ebed;
+        color:  #df5381;
+        font-weight: 70;
+        border-radius:5px;
+    }
+    .register-text{
+        text-align: center;
+        color: #d00146;
+        font-weight: 150;
+        font-size:large;
+        margin-bottom: 3px;
+    }
+    .text-making-userAccount{
+        text-align: center;
+        color: #a1969a;
+        font-size: smaller;
+        margin-bottom: 25px;
+    }
+    .label{
+        color: #a1969a;
+        font-size: small;
+        /* margin-bottom: 10px; */
+    }
+    .input{
+        width: 100%;
+        border-radius:5px;
+        margin-top:6px;
+        margin-bottom: 6px;
+
+    }
+    .button_register{
+        width: 100%;
+        background-color: #df5381 ;
+        color: #f7f7f7 ;
+        border-radius:5px;
+        margin: 10px 0;
+    }
+    .button_register:hover{
+        background-color:#d00146 ;
+        cursor: pointer;
+    }
+    .text{
+        font-size: smaller;
+        margin: 10px 0;
+        text-align: center;
+        color: #a1969a ;
+
+    }
+    .login{
+        font-size: small;
+        color: #df5381;
+    }
+    .login:hover{
+        color: #d00146;
+        cursor: pointer;
+    }
+}

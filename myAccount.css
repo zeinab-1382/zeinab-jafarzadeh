@@ -1,0 +1,1004 @@
+@font-face {
+    font-family: "vazir";
+    src: url(./fonts/Vazirmatn-Medium.woff2) format("woff2");
+}
+
+body{
+    font-family: "vazir";
+    margin: 0;
+    font-size: 100%;
+    background-color: #f7f7f7;
+}
+/* for prevent of showing content of container3*/
+/* body.show-formInformation .container3{
+    display: none;
+} */
+
+/* for prevent of showing content of container3*/
+/* body.show-trackOrders .container4{
+    display:none;
+} */
+
+/* for prevent of showing Exit from user account*/
+/* .show-ExitFromUserAccount{
+    display: none;
+} */
+
+
+/*screen max-width until 2720px*/
+@media (max-width:2720px) {
+    /*header*/
+    .container1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #df5381;
+        height: auto;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        color: #ffffff;
+    }
+    .left-nav , .right-nav{
+        display: flex;
+        /* padding: 30px 0; */
+    }
+    .left-nav{
+        justify-content: left;
+        align-items: center;
+    }
+    .right-nav{
+        justify-content: left;
+        align-items: center;
+        margin-right: 2rem;
+    }
+    /* .icon-cart{
+        margin-top:1.5rem ;
+        margin-left: 2rem;
+        font-weight:300%;
+        cursor: pointer;
+    } */
+    .cart-counter{
+        /* width: 1px; */
+        /* height: -2px; */
+        position:relative;
+        top:-0.4rem;
+        left:1.5rem;
+        
+        color: #ffffff;
+    }
+    .bi-cart3 svg{
+        width:30px ;
+        height:30px ;
+    }
+    .fa-profile{
+        /* margin-top:1rem ; */
+        margin-left:1rem;
+        font-weight:300%;
+        cursor: pointer;
+    }
+    .bi-person svg{
+        width:30px ;
+        height:30px ;
+    }
+    .pink{
+        font-size:25px;
+    }
+/*buttons(user account - follow orders - exit from user account)*/
+    .container2{
+        display:flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        font-size: medium;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    button{
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    } 
+    .btn-profile-account,.btn-order-follow,.btn-exit{
+        margin: 6px;
+        background-color: #eae9e9;
+        color: #757475;
+        padding:10px 10px;
+        border-radius: 5px;
+    }
+/*by hovering on the buttons; their color change*/
+    .btn-profile-account:hover{
+        background-color:  #e0dcdc;
+    }
+    .btn-order-follow:hover{
+        background-color:  #e0dcdc;
+    }
+    .btn-exit:hover{
+        background-color: #e0dcdc;
+    }
+/*svg tag designs*/
+    .btn-profile-account svg{
+        margin-left: 10px;
+        /* padding-left:3px; */
+    }
+    .btn-order-follow svg{
+        margin-left: 10px;
+    }
+    .btn-exit svg{
+        margin-left: 10px;
+    }
+    /*horizantal line*/
+    .hr{
+        width: 90%;
+        margin: auto;
+        
+    }
+
+
+/*personal information----------------------*/
+    .container3{
+        margin:40px 35%;
+        padding: 20px;
+        /* width: 30%; */
+        /* height: 90%; */
+        /* position:relative; */
+        /* inset:230px  35% 1000% 35%; */
+        /* top: 230px;
+        right:35% ;
+        left: 35%;
+        bottom: 80%; */
+        background-color:#eae9e9 ;
+        text-align: right;
+        color: #757475 ;
+        border-radius: 0.5rem;
+    }
+    .personal-information-text{
+        font-size:large;
+        color: #6e6d6e ;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .personal-information-tex2{
+        margin-bottom: 5px;
+    }
+    .input,.textarea{
+        display: flex;
+        /* justify-content: center;
+        align-content: center; */
+        width: 100%;    
+        border-radius: 0.2rem;
+        margin-top:5px ;
+    }
+    .user-information-text{
+        margin-bottom: 15px;
+    }
+/*buttons of forms*/
+    .btn-update-personalInformation,.btn-update-userInformation{
+        width: 100%;
+        background-color: #d5d5d5;
+        text-align: center;
+        padding:5px 2px ;
+        margin-top:7px ;
+        border-radius: 0.2rem;
+    }
+/*designs when hovering on the buttons*/    
+    .btn-update-personalInformation:hover{
+        background-color: #eaeaea;
+        cursor: pointer;
+    }
+    .btn-update-userInformation:hover{
+        background-color: #eaeaea;
+        cursor: pointer;
+    }
+    .hr1{
+        /* background-color: black; */
+        width: 90%;
+    }
+   
+
+/*track orders designs ---------------------*/
+    .container4{
+        margin:50px 25% ;
+        text-align: right;
+        color: #757475  ;
+        font-size: medium;
+    }
+    .text1{
+        color: #6b696b ;
+        font-size:large;
+    }
+    .text1 ,.text2{
+        margin-right:40px;
+    }
+    .background-post{
+        margin: 20px 20px;
+        width: 90%;
+        height: 200px;
+    }
+    .image{
+        margin-top: 50px;
+        border-radius: 0.2rem;
+    }
+    .btn-enterPostSite{
+        width: 100%;
+        background-color:#eae9e9;
+        color: #757475;
+        padding:5px 5px;
+        margin-top:10px ;
+        font-size: medium;
+        border-radius: 0.2rem;
+    }
+    .btn-enterPostSite:hover{
+        background-color: #e0dcdc;
+    }
+
+/*Exit from user account ------------------*/
+    .container5{
+        margin:50px 35% ;
+        font-size: medium;
+        text-align: right;
+        color: #757475;
+    }
+    .button-exit{
+        width: 100%;
+        margin-top: 50px;
+        padding:7px 0 ;
+        background-color:  #eae9e9;
+        border-radius: 0.2rem;
+    }
+    .button-exit:hover{
+        background-color: #e0dcdc;
+    }
+
+/* Footer part -----------------------*/
+    .footer-container{
+        margin-top: 100px;
+        background-color: #df5381;
+        color:#ffffff;
+        font-size: medium;
+        border-radius: 1rem;
+        padding:30px;
+        
+    }
+    .footer-connection{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+    .bi svg{
+        width:20px ;
+        height:20px ;
+        margin:0 5px;
+    }
+    .footer-text2{
+        margin-top: 10px;
+        text-align: center;
+        font-size: small;
+    }
+
+}
+
+
+/*screen max-width until 1440px*/
+@media (max-width:1440px) {
+    /*header*/
+    .container1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #df5381;
+        height: auto;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        color: #ffffff;
+    }
+    .left-nav , .right-nav{
+        display: flex;
+    }
+    .left-nav{
+        justify-content: left;
+        align-items: center;
+    }
+    .right-nav{
+        justify-content: left;
+        align-items: center;
+        margin-right: 2rem;
+    }
+    .icon-cart{
+        margin-top:1.5rem ;
+        margin-left: 2rem;
+        font-weight:300%;
+        cursor: pointer;
+    }
+    .cart-counter{
+        /* width: 1px; */
+        /* height: -2px; */
+        position:relative;
+        top:-0.4rem;
+        left:1.5rem;
+        
+        color: #ffffff;
+    }
+    .bi-cart3 svg{
+        width:30px ;
+        height:30px ;
+    }
+    .fa-profile{
+        /* margin-top:1rem ; */
+        margin-left:1rem;
+        font-weight:300%;
+        cursor: pointer;
+    }
+    .bi-person svg{
+        width:30px ;
+        height:30px ;
+    }
+    .pink{
+        font-size:25px;
+    }
+/*buttons(user account - follow orders - exit from user account)*/
+    .container2{
+        display:flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        font-size: medium;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    button{
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    } 
+    .btn-profile-account,.btn-order-follow,.btn-exit{
+        margin: 6px;
+        background-color: #eae9e9;
+        color: #757475;
+        padding:10px 10px;
+        border-radius: 5px;
+    }
+/*by hovering on the buttons; their color change*/
+    .btn-profile-account:hover{
+        background-color:  #e0dcdc;
+    }
+    .btn-order-follow:hover{
+        background-color:  #e0dcdc;
+    }
+    .btn-exit:hover{
+        background-color: #e0dcdc;
+    }
+/*svg tag designs*/
+    .btn-profile-account svg{
+        margin-left: 10px;
+        /* padding-left:3px; */
+    }
+    .btn-order-follow svg{
+        margin-left: 10px;
+    }
+    .btn-exit svg{
+        margin-left: 10px;
+    }
+/*horizantal line*/
+     .hr{
+        width: 90%;
+        margin: auto;
+        
+    }
+
+
+/*personal information----------------------*/
+    .container3{
+        margin:40px 35%;
+        padding: 20px;
+        /* margin-top:40px; */
+        background-color:#eae9e9 ;
+        text-align: right;
+        color: #757475 ;
+        border-radius: 0.5rem;
+    }
+    .personal-information-text{
+        font-size:large;
+        color: #6e6d6e ;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .personal-information-tex2{
+        margin-bottom: 5px;
+    }
+    .input,.textarea{
+        display: flex;
+        /* justify-content: center;
+        align-content: center; */
+        width: 100%;    
+        border-radius: 0.2rem;
+        margin-top:5px ;
+    }
+    .user-information-text{
+        margin-bottom: 15px;
+    }
+/*buttons of forms*/
+    .btn-update-personalInformation,.btn-update-userInformation{
+        width: 100%;
+        background-color: #d5d5d5;
+        text-align: center;
+        padding:5px 2px ;
+        margin-top:7px ;
+        border-radius: 0.2rem;
+    }
+/*designs when hovering on the buttons*/    
+    .btn-update-personalInformation:hover{
+        background-color: #eaeaea;
+        cursor: pointer;
+    }
+    .btn-update-userInformation:hover{
+        background-color: #eaeaea;
+        cursor: pointer;
+    }
+
+
+/*track orders designs ---------------------*/
+      .container4{
+        margin:50px 25% ;
+        text-align: right;
+        color: #757475  ;
+        font-size: medium;
+    }
+    .text1{
+        color: #6b696b ;
+        font-size: large;
+    }
+    .text1 ,.text2{
+        margin-right:30px;
+    }
+    .background-post{
+        margin: 20px 20px;
+        width: 90%;
+        height: 200px;
+    }
+    .image{
+        border-radius: 0.2rem;
+    }
+    .btn-enterPostSite{
+        width: 100%;
+        background-color:#eae9e9;
+        color: #757475;
+        padding:3px 5px;
+        margin-top:10px ;
+        font-size: medium;
+        border-radius: 0.2rem;
+    }
+    .btn-enterPostSite:hover{
+        background-color: #e0dcdc;
+    }
+
+/*Exit from user account ------------------*/
+    .container5{
+        margin:50px 30% ;
+        font-size: medium;
+        text-align: right;
+        color: #757475;
+    }
+    .button-exit{
+        width: 100%;
+        margin-top: 50px;
+        padding:7px 0 ;
+        background-color:  #eae9e9;
+        border-radius: 0.2rem;
+    }
+    .button-exit:hover{
+        background-color: #e0dcdc;
+    }
+
+/* Footer part -----------------------*/
+    .footer-container{
+        background-color: #df5381;
+        color:#ffffff;
+        font-size: medium;
+        border-radius: 1rem;
+        padding:30px;
+        
+    }
+    .footer-connection{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+    .bi svg{
+        width:20px ;
+        height:20px ;
+        margin:0 5px;
+    }
+    .footer-text2{
+        margin-top: 10px;
+        text-align: center;
+        font-size: small;
+    }
+
+}
+
+
+
+
+/*screen max-width until 768px*/
+@media (max-width:768px) {
+    /*header*/
+    .container1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #df5381;
+        height: auto;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        color: #ffffff;
+    }
+    .left-nav , .right-nav{
+        display: flex;
+    }
+    .left-nav{
+        justify-content: left;
+        align-items: center;
+    }
+    .right-nav{
+        justify-content: left;
+        align-items: center;
+        margin-right: 2rem;
+    }
+    .icon-cart{
+        margin-top:1.5rem ;
+        margin-left: 2rem;
+        font-weight:300%;
+        cursor: pointer;
+    }
+    .cart-counter{
+        /* width: 1px; */
+        /* height: -2px; */
+        position:relative;
+        top:-0.4rem;
+        left:1.5rem;
+        
+        color: #ffffff;
+    }
+    .bi-cart3 svg{
+        width:30px ;
+        height:30px ;
+    }
+    .fa-profile{
+        /* margin-top:1rem ; */
+        margin-left:1rem;
+        font-weight:300%;
+        cursor: pointer;
+    }
+    .bi-person svg{
+        width:30px ;
+        height:30px ;
+    }
+    .pink{
+        font-size:25px;
+        
+    }
+/*buttons(user account - follow orders - exit from user account)*/
+    .container2{
+        display:flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        font-size: medium;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    button{
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    } 
+    .btn-profile-account,.btn-order-follow,.btn-exit{
+        margin: 6px;
+        background-color: #eae9e9;
+        color: #757475;
+        padding:10px 10px;
+        border-radius: 5px;
+    }
+/*by hovering on the buttons; their color change*/
+    .btn-profile-account:hover{
+        background-color:  #e0dcdc;
+    }
+    .btn-order-follow:hover{
+        background-color:  #e0dcdc;
+    }
+    .btn-exit:hover{
+        background-color: #e0dcdc;
+    }
+/*svg tag designs*/
+    .btn-profile-account svg{
+        margin-left: 10px;
+        /* padding-left:3px; */
+    }
+    .btn-order-follow svg{
+        margin-left: 10px;
+    }
+    .btn-exit svg{
+        margin-left: 10px;
+    }
+/*horizantal line*/
+     .hr{
+        width: 90%;
+        margin: auto;
+        
+    }
+
+/*personal information----------------------*/
+    .container3{
+        margin:40px 20px ;
+        padding: 20px;
+        /* margin-top:40px; */
+        background-color:#eae9e9 ;
+        text-align: right;
+        color: #757475 ;
+        border-radius: 0.5rem;
+    }
+    .personal-information-text{
+        font-size:large;
+        color: #6e6d6e ;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .personal-information-tex2{
+        margin-bottom: 5px;
+    }
+    .input,.textarea{
+        display: flex;
+        /* justify-content: center;
+        align-content: center; */
+        width: 100%;
+        border-radius: 0.2rem;
+        margin-top:5px ;
+    }
+    .user-information-text{
+        margin-bottom: 15px;
+    }
+/*buttons of forms*/
+    .btn-update-personalInformation,.btn-update-userInformation{
+        width: 100%;
+        background-color: #d5d5d5;
+        text-align: center;
+        padding:5px 2px ;
+        margin-top:7px ;
+        border-radius: 0.2rem;
+    }
+/*designs when hovering on the buttons*/    
+    .btn-update-personalInformation:hover{
+        background-color: #eaeaea;
+        cursor: pointer;
+    }
+    .btn-update-userInformation:hover{
+        background-color: #eaeaea;
+        cursor: pointer;
+    }
+
+
+    /*track orders designs ---------------------*/
+    .container4{
+        margin:30px 20px ;
+        text-align: right;
+        color: #757475  ;
+        font-size: small;
+    }
+    .text1{
+        color: #6b696b ;
+        font-size: medium;
+    }
+    .text1 ,.text2{
+        margin-right:40px;
+    }
+    .background-post{
+        margin: 20px 20px;
+        width: 90%;
+        height: 200px;
+    }
+    .image{
+        border-radius: 0.2rem;
+    }
+    .btn-enterPostSite{
+        width: 100%;
+        background-color:#eae9e9;
+        color: #757475;
+        padding:3px 5px;
+        margin-top:5px ;
+        font-size: small;
+        border-radius: 0.2rem;
+    }
+    .btn-enterPostSite:hover{
+        background-color: #e0dcdc;
+    }
+
+
+/*Exit from user account ------------------*/
+    .container5{
+        margin:50px 20% ;
+        font-size: medium;
+        text-align: right;
+        color: #757475;
+    }
+    .button-exit{
+        width: 100%;
+        margin-top: 50px;
+        padding:7px 0 ;
+        background-color:  #eae9e9;
+        border-radius: 0.2rem;
+    }
+    .button-exit:hover{
+        background-color: #e0dcdc;
+    }
+
+/* Footer part -----------------------*/
+    .footer-container{
+        background-color: #df5381;
+        color:#ffffff;
+        font-size: small;
+        border-radius: 1rem;
+        padding:30px;
+        
+    }
+    .footer-connection{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+    .bi svg{
+        width:18px ;
+        height:18px ;
+    }
+    .footer-text2{
+        margin-top: 10px;
+        text-align: center;
+        font-size: xx-small;
+    }
+}
+
+
+
+
+/*screen max-width until 425px*/
+@media (max-width:425px) {
+    /*header*/
+    .container1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #df5381;
+        height: auto;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        color: #ffffff;
+    }
+    .left-nav , .right-nav{
+        display: flex;
+    }
+    .left-nav{
+        justify-content: left;
+        align-items: center;
+    }
+    .right-nav{
+        justify-content: left;
+        align-items: center;
+        margin-right: 2rem;
+    }
+    .icon-cart{
+        margin-top:1.5rem ;
+        margin-left: 2rem;
+        font-weight:300%;
+        cursor: pointer;
+    }
+    .cart-counter{
+        /* width: 1px; */
+        /* height: -2px; */
+        position:relative;
+        top:-0.4rem;
+        left:1.2rem;
+        
+        color: #ffffff;
+    }
+    .bi-cart3 svg{
+        width:22px ;
+        height:22px ;
+    }
+    .fa-profile{
+        /* margin-top:1rem ; */
+        margin-left:1rem;
+        font-weight:300%;
+        cursor: pointer;
+    }
+    .bi-person svg{
+        width:22px ;
+        height:22px ;
+    }
+    .pink{
+        font-size: larger;
+        
+    }
+
+/*buttons(user account - follow orders - exit from user account)*/
+
+    .container2{
+       display:flex;
+       justify-content: center;
+       flex-direction: row-reverse;
+       font-size: x-small;
+       margin-top: 20px;
+       margin-bottom: 15px;
+    }
+    button{
+        display: flex;
+        justify-content: center;
+       
+        
+    }
+    .btn-profile-account,.btn-order-follow,.btn-exit{
+        margin: 6px;
+        background-color: #eae9e9;
+        color: #757475;
+        padding:10px 5px;
+        border-radius: 5px;
+    }
+/*by hovering on the buttons; their color change*/
+    .btn-profile-account:hover{
+        background-color: #e0dcdc;
+    }
+    .btn-order-follow:hover{
+        background-color: #e0dcdc;
+    }
+    .btn-exit:hover{
+        background-color: #e0dcdc;
+    }
+/*svg tag designs*/
+    .btn-profile-account svg{
+        margin-left: 3px;
+        padding-left: 0;
+    }
+    .btn-order-follow svg{
+        margin-left: 3px;
+    }
+    .btn-exit svg{
+        margin-left: 3px;
+    }
+ /*horizantal line*/
+    .hr{
+        width: 90%;
+        margin: auto;
+        
+    }
+/*personal information----------------------*/
+    .container3{
+
+        margin:40px 20px ;
+        padding: 20px;
+        /* margin-top:40px; */
+        background-color:#eae9e9 ;
+        text-align: right;
+        color: #757475 ;
+        border-radius: 0.5rem;
+    }
+    .personal-information-text{
+        font-size:large;
+        color: #6e6d6e ;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .personal-information-tex2{
+        margin-bottom: 5px;
+    }
+    .input,.textarea{
+        display: flex;
+        /* justify-content: center;
+        align-content: center; */
+        width: 100%;
+        border-radius: 0.2rem;
+        margin-top:5px ;
+    }
+    .user-information-text{
+        margin-bottom: 15px;
+    }
+    /* .label ,.label1{
+        
+    } */
+/*buttons of forms*/
+    .btn-update-personalInformation,.btn-update-userInformation{
+        width: 100%;
+        background-color: #d5d5d5;
+        text-align: center;
+        padding:5px 2px ;
+        margin-top:7px ;
+        border-radius: 0.2rem;
+    }
+/*designs when hovering on the buttons*/    
+    .btn-update-personalInformation:hover{
+        background-color: #eaeaea;
+        cursor: pointer;
+    }
+    .btn-update-userInformation:hover{
+        background-color: #eaeaea;
+        cursor: pointer;
+    }
+
+
+/*track orders designs ---------------------*/
+    .container4{
+        margin:30px 20px ;
+        text-align: right;
+        color: #757475  ;
+        font-size: small;
+    }
+    .text1{
+        color: #6b696b ;
+        font-size: medium;
+    }
+    .text1 ,.text2{
+        margin-right:0px;
+    }
+    .background-post{
+        margin: 20px 20px;
+        width: 90%;
+        height: 200px;
+    }
+    .image{
+        border-radius: 0.2rem;
+    }
+    .btn-enterPostSite{
+        width: 100%;
+        background-color:#eae9e9;
+        color: #757475;
+        padding:3px 5px;
+        margin-top:5px ;
+        font-size: small;
+        border-radius: 0.2rem;
+    }
+    .btn-enterPostSite:hover{
+        background-color: #e0dcdc;
+    }
+
+/*Exit from user account ------------------*/
+    .container5{
+        margin:50px 20px ;
+        font-size: medium;
+        text-align: right;
+        color: #757475;
+    }
+    .button-exit{
+        width: 100%;
+        margin-top: 30px;
+        padding:7px 0 ;
+        background-color:  #eae9e9;
+        border-radius: 0.2rem;
+    }
+    .button-exit:hover{
+        background-color: #e0dcdc;
+    }
+
+
+/* Footer part -----------------------*/
+    .footer-container{
+        background-color: #df5381;
+        color:#ffffff;
+        font-size: small;
+        border-radius: 1rem;
+        padding:30px;
+        
+    }
+    .footer-connection{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+    .bi svg{
+        width:18px ;
+        height:18px ;
+    }
+    .footer-text2{
+        margin-top: 10px;
+        text-align: center;
+        font-size: xx-small;
+    }
+}
+
+
+
+
+

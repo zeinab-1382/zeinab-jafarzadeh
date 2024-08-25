@@ -1,0 +1,40 @@
+/*photoes of girlish and boyish baners*/
+.photo-baners{
+    display: flex;
+    justify-content: center;
+}
+
+.photoBanerGirlLink,.photoBanerBoyLink{
+    margin:60px 40px ;
+    margin-top: 0;
+}
+
+.photoBanerGirl,.photoBanerBoy{
+    border-radius: 1rem;
+    margin: 20px;
+}
+
+.photoBanerGirlLink{
+    border: 2px solid #df5381;
+    border-radius: 1rem;
+}
+
+.photoBanerBoyLink{
+    border: 2px solid rgb(228, 228, 53);
+    border-radius: 1rem;
+}
+
+
+/*photoes of girlish and boyish baners until 1024px*/
+@media (max-width:1024px) {
+    .photo-baners{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .photoBanerGirl,.photoBanerBoy{
+        border-radius: 1rem;
+        margin:0;
+    
+    }
+    
+}
